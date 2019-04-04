@@ -24,6 +24,7 @@ typedef long double LD;
 #define FOR(i,a,b) for (int i = a; i < b; i++)
 #define REPD(i,n) for (int i = n-1; i >= 0; i--)
 #define FORD(i,a,b) for (int i = a; i >= b; i--)
+#define VFOR(i, v) for(auto i = v.begin(); i!=v.end();i++)
 #define remax(a,b) a = max(a,b)
 #define remin(a,b) a = min(a,b)
 #define all(v) v.begin(),v.end()
