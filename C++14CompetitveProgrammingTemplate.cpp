@@ -46,7 +46,8 @@ template <typename T> inline T GCD(T a,T b)   {ll t;while(a){t = a;a = b%a;b = t
 template <typename T> inline T EGCD(T a,T b,T &x,T &y){if(a == 0) {x = 0;y = 1;return b;}T x1, y1;T d = EGCD(b % a, a, x1, y1);x = y1 - (b / a) * x1;y = x1;return d;}
 
 signed main(){
-	FAST_IO
+	//UNCOMMENT WHEN REQUIRED
+	//FAST_IO
 	//PRECISION(10)
  
 	return 0;
