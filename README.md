@@ -16,6 +16,8 @@ REPD(i,n) -> Iterate form i = n-1 to 0
 
 FORD(i,a,b) -> Iterate from a to b, in Decreasing Order,[Note: a should be greater than b]
 
+VFOR(i,v) -> Iterate over vector v, using the iterator i
+
 remax(a,b) -> return the maximum of two numbers
 
 remin(a,b) -> return the minimum of two numbers
