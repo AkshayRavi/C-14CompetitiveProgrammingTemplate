@@ -1,5 +1,5 @@
 /*
-	CREATED BY: Akshay Kumar Ravi
+	Developed By: Akshay Kumar Ravi
 */
 
 //#pragma GCC optimize("O3")
@@ -24,7 +24,8 @@ typedef long double LD;
 #define FOR(i,a,b) for (int i = a; i < b; i++)
 #define REPD(i,n) for (int i = n-1; i >= 0; i--)
 #define FORD(i,a,b) for (int i = a; i >= b; i--)
-#define remax(a,b) a = max(a,b)
+#define remax(a
+,b) a = max(a,b)
 #define remin(a,b) a = min(a,b)
 #define all(v) v.begin(),v.end()
 typedef map<int,int> mii;
